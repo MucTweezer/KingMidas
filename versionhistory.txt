@@ -1,0 +1,6 @@
+KingMidas Version History
+
+Version 1.1.0:
+  Added message to user after command executed.
+  Added the "off" argument to toggle the functionality off.
+Version 1.0.0: First release

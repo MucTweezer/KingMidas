@@ -1,0 +1,23 @@
+name: KingMidas
+version: 1.1.0
+description: This plugin allows you to convert a block you touch into another type of block.
+author: MucTweezer
+
+main: me.MucTweezer.KingMidas.KingMidas
+database: false
+
+commands:
+  kingmidas:
+    description: Cause all blocks to be converted to the block ID of the argument. Calling the command with off as the argument will disable the mod.
+    aliases: km
+    permission: kingmidas.kingmidas
+    usage: Syntax error! Supply only one argument that is either an integer or off.
+
+permissions:
+  kingmidas.*:
+    description: Gives access to all KingMidas commands
+    children:
+      kingmidas.kingmidas: true
+  kingmidas.kingmidas:
+    description: Allows the use of the kingmidas command
+    default: op
